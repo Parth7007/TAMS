@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    padding-bottom: 10px;
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    
+    color: white;
+    display: fixed;
+    background-color: black;
+    
+}
+
+h1{ 
+    margin-left: 60px;
+    padding-top: 20px;
+    position: ;
+    color:white;
+    
+}
+
+
+
+
+
+.navbar ul{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    position: absolute;
+    left: 800px;
+    bottom: 650px;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    font-size: 20px;
+
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li{
+    
+    padding : 10px 40px;
+    border: 2px solid black;
+    margin :0px 10px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    /* background-color: black; */
+}
+
+.navbar ul  :hover{
+   /* color: #95c7cc; */
+   color: black;
+   background-color: white;
+   transition: 1s;
+   transform:translateY(10px);
+   font-size: 25px;
+}
+
+.butman{
+    position: relative;
+    left: 90px;
+    top: 50px;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 20px;    
+}
+
+.butman:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    transform: translateY(20px);
+    
+}
+
+
+/* body{
+    
+    background: url(./packages/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+   
+} */
+.full{
+    background-image: url(./backgroundimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+body{
+    
+}
+
+
+.manali{
+    padding-top: 100px;
+    
+    color: black;
+    padding-left: 50px;
+    
+}
+
+#manaliimg{
+    width:300px;
+}
+
+.kedarnath{
+    position: absolute;
+    padding-left: 50px;
+    left: 473px;
+    bottom: 143px;
+    color: black;
+    
+}
+
+#kedarimg{
+    width: 300px;
+}
+
+.south{
+    position: absolute;
+    padding-left: 50px;
+    left: 984px;
+    bottom: 110px;
+    color: black;
+}
+#southimg{
+    width: 400px;
+}
